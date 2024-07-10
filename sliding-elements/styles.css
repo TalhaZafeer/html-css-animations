@@ -1,0 +1,22 @@
+@keyframes slide-left {
+  0% {
+    transform: translateY(110vh);
+  }
+  100% {
+    transform: translateY(-10vh);
+  }
+}
+
+body {
+  overflow: hidden;
+}
+
+.text-loop-scroll {
+  height: auto;
+  animation: slide-left 10s linear infinite 0s;
+  display: inline-block;
+  float: right;
+}
+.countryname {
+  display: block;
+}
